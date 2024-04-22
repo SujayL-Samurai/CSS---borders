@@ -1,0 +1,35 @@
+borders;
+
+<!DOCTYPE html>
+<html>
+	
+<link rel="stylesheet" href="style.css">
+		<head>
+			<h1>Sujay Langade</h1>
+
+		<p id="p1" class="odd">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo fugiat error labore culpa saepe a. Earum exercitationem aspernatur, consequuntur, non animi beatae fugiat ex esse explicabo asperiores hic tempore fugit.</p>
+		<p id="p2" class="even">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo fugiat error labore culpa saepe a. Earum exercitationem aspernatur, consequuntur, non animi beatae fugiat ex esse explicabo asperiores hic tempore fugit.</p>
+		<p id="p3" class="odd">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo fugiat error labore culpa saepe a. Earum exercitationem aspernatur, consequuntur, non animi beatae fugiat ex esse explicabo asperiores hic tempore fugit.</p>
+		<p id="p4" class="odd">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo fugiat error labore culpa saepe a. Earum exercitationem aspernatur, consequuntur, non animi beatae fugiat ex esse explicabo asperiores hic tempore fugit.</p>
+		</head>
+	</body>
+</html>
+
+style.css
+
+h1{
+border-style: solid;
+border-color: purple;
+border-width: 3px;
+border-radius: 20px;
+}
+
+#p1{
+    border: solid 3px red
+    }
+#p2{
+    border-bottom: 3px solid navy;
+    border-top: 3px solid yellow;
+    border-left: 3px dotted orangered;
+    border-right: 3px dashed magenta;
+}
